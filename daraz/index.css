@@ -1,0 +1,420 @@
+   /* this is for header section*/ 
+    *{
+            margin: 0;
+            padding: 0;
+            font-family: Roboto-Regular, Helvetica Neue, Helvetica, Tahoma, Arial, Sans-serif;
+        }
+        header{
+            width: 1260px;
+            height: 118px;
+            background-color: #f85606;
+            box-sizing: content-box;
+            font-family: Roboto-Regular, Helvetica Neue, Helvetica, Tahoma, Arial, Sans-serif;
+        }
+        #header{
+            background-color: #f85606;
+            height: 118px;
+            box-sizing: content-box;
+            display: flex;
+            justify-content:flex-start;
+            
+            font-family: Roboto-Regular, Helvetica Neue, Helvetica, Tahoma, Arial, Sans-serif;
+        }
+        #logopic{
+            height: 40px;
+            width: 127px;  
+        }
+        #logo{
+            padding-top: 40px;
+            
+        }
+        #search{
+            padding-top: 45px;
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-left: 100px;
+            display: flex;
+            width: 700px;
+            height: 50px;
+            box-sizing: content-box;
+            
+            
+        }
+        #searchbar{
+            height: 30px;
+            width: 400px;
+           
+            border: none;
+            padding: 6px;
+            padding-left: 30px;
+            flex-grow: 1;
+           
+        }
+        #iconsearch{
+            height: 30px;
+            width: 30px;
+            background-color: #febb9a;
+            padding: 6px;
+            cursor: pointer;
+            font-size: 30px;
+            color: #f85606;
+        }
+     nav {
+        position: absolute;
+        top: 4px;
+        left: 650px;
+        display: flex;
+        justify-content:space-between;
+        width: 600px;
+        text-transform: uppercase;
+     }
+     nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 10px;
+        font-weight: 500;
+     }
+
+/*header section end*/ 
+
+/* this is start of banner section*/
+#banner{
+        display: flex;
+        width: 1300px;
+        height: 300px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        background-color: white;
+        
+
+    }
+    #bannerimg{
+        flex-grow: 0.5;
+        margin-right: 20px;
+        
+    }
+    #bannerpic{
+        width: 100%;
+        height: 300px;
+    }
+   
+  
+    main{
+        background-color: rgb(236, 239, 243);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+      #app{
+    background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0)), linear-gradient(179.27deg, #ffedd6 .83%, #ffc3e3 46.78%, #fff 99.57%), linear-gradient(0deg, #fff, #fff);
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+   
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+}
+#logotry{
+    display: flex;
+    justify-content: space-evenly;
+    width: 182px;
+    height: 42px;
+
+}
+#asidemid{
+    background-image: url('aside/imgaside.png');
+    width: 180px;
+    height: 145px;
+    padding-top: 20px;
+
+}
+#fshipping{
+    width: 182px;
+    height: 42px;
+    display: flex;
+    margin: 10px 10px 4px 10px;
+   padding-left:10px ;
+}
+#fvouncher{
+    width: 182px;
+    height: 42px;
+    display: flex;
+    margin: 10px 10px 4px 10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    
+}
+#imgaside{
+    width: 36px;
+    height: 36px;
+}
+.textaside{
+    padding-left:10px ;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#qrcodeaside{
+    width: 182px;
+    height:  90px;
+    display: flex;
+    margin-top: 10px;
+}
+#downloadaside{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#asideapp1{
+    width: 83px;
+    height: 24px;
+}
+#asideapp2{
+    width: 83px;
+    height: 24px;
+}
+/*banner section end*/
+
+/*on sale now section start*/
+   #onsale{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 1188;
+        background-color: white;
+        padding: 0 20px;
+        
+        font-size: 14px
+      }
+      #allproducts {
+        background-color: white;
+        border: 1px solid #f85606;
+        padding: 10px 20px;
+        font-weight: bold;
+        color:#f85606;
+        border-radius: 4px;
+        
+      }
+      #allproductslink{
+         text-transform: uppercase;
+        text-decoration: none;
+        color: #f85606;
+        width:166px;
+        height: 35px;
+        text-transform: uppercase;
+      }
+      #salenow {
+        color: #f85606;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      #flashsales {
+        font-size: 24px;
+        
+        margin: 20px 0;
+      }
+      #categaroy ,.foru {
+        display: flex;
+        padding: 0px 5px 0px 5px;
+        background-color: white;
+        width: 1188px;
+        height: 320px;
+        border-top: 1px solid black;
+        margin: 0px;
+       
+      }
+    .item,.fitem{
+        width: 188px;
+        height: 290px;
+        padding: 5px;
+        transition: all 0s ease-in-out 0s;
+        text-transform: uppercase;
+    } 
+   
+    section div a img {
+        width: 188px;
+        height: 188px;
+    }
+    .divdiscount{
+        display: flex;
+        
+    }
+    .itemname,.fname{
+        font-size: 14px;
+        line-height: normal;
+        align-items: center;
+        align-content: center;
+        text-transform: capitalize;
+        margin-bottom: 4px;
+        font-weight: bold;
+        font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+    }
+    .dis{
+        color:black;
+        
+       
+ 
+    }
+    .price{
+        text-decoration: line-through;
+        color: #999;
+    }
+    .itemprice,.fprice{
+        color: #f85606;
+        
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .fitem:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out 0s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .item:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out 0s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+/*on sale now section end*/
+
+/*just for you section*/
+
+
+        #cat{
+            width: 1188px;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+           
+            margin-right:40px ;
+            
+        }
+        .ctop{
+            display: flex;
+           
+            margin-top: 0;
+            
+        }
+        .ctopitem:hover{
+             transform: scale(1.05);
+        transition: all 0.3s ease-in-out 0s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .catimg{
+            width: 140px;
+            height: 140px;
+        }
+        .ctopitem{
+            display: flex;
+            flex-direction: column;
+            border: 0.4px solid black;
+        }
+        .ctopname{
+            text-align: center;
+            font-size: 20px;
+            height: 36px;
+            margin: 8px 12px 0;
+            text-transform: capitalize;
+        }
+
+        #itemforyou{
+            margin-top: 40px;
+            
+        }
+
+        #showbutt{
+           
+            text-align: center;
+            width: 400px;
+            height: 40px;
+            border: 1px solid #1a9cb8;
+            width: 387px;
+        }
+        #loadmore{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            
+        }
+        #loadbutt{
+           color: #1a9cb8;
+           text-transform: uppercase;
+           text-decoration: none;
+           
+  
+        }
+/*just for you section end*/
+
+/*footer section start*/
+ #footer {
+        
+        display: flex;
+        padding-left: 30px;
+        padding-right: 20px;
+        
+    }
+    #customercare{
+        width: 297;
+        height: 136;
+        margin-right: 150px;
+    }
+    ul li a{
+        color: #0f136d;
+        text-decoration: none;
+        font-weight: 200;
+    line-height: 17px;
+    list-style: none;
+    }
+   .hstate:hover{
+        text-decoration: underline;
+    }
+    ul {
+    line-height: 17px;
+    list-style: none;
+    }
+    #downloadop {
+        width: 600px;
+        height: 120px;
+        
+        margin-left: 120px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #logodown{
+        width:160px;
+        height: 40px;
+        
+        display: flex;
+    }
+    #logodownpic{
+        width: 50px;
+        height: 38px;
+    }
+    #happytext{
+        font-size: 14px;
+        color: chocolate;
+        text-transform:capitalize;
+        
+    }
+    .store {
+        width:160px;
+        height: 40px;
+       
+        margin-left: 10px;
+    }
+    #logoappstore{
+       
+        height: 38px;
+        width: 100%;
+    }
+/*footer section end*/
